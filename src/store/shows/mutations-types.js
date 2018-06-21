@@ -1,2 +1,0 @@
-export const SET_LOADING_STATE = 'SET_LOADING_STATE'
-export const SET_LIST_OF_SHOWS = 'SET_LIST_OF_SHOWS'
