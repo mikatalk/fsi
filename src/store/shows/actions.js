@@ -6,6 +6,7 @@ export const loadAll = ({ commit }) => {
   commit(types.SET_LOADING_STATE, true)
   ShowsAPI.loadAll().then(response => {
     const data = response.data.map(show => new Show(show))
+    // eslint-disable-next-line no-console
     console.log('data received:', data)
     commit(types.SET_LIST_OF_SHOWS, data)
     commit(types.SET_LOADING_STATE, false)
