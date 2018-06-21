@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
-import './registerServiceWorker'
+import router from './router/index'
+import store from '@/store'
+// uncomment below to enable service workers
+// import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
