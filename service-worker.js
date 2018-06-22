@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.3.0/workbox-sw.js");
 
 importScripts(
-  "https://mikatalk.github.io/fsi/precache-manifest.1f7f686fb17c0498d6629241810f3803.js"
+  "https://mikatalk.github.io/fsi/precache-manifest.06616dee070dc1fbb09e235a15ea4226.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fsi"});
